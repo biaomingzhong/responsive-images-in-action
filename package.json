@@ -1,0 +1,33 @@
+{
+  "name": "responsive-images-in-action",
+  "author": "Biaoming Zhong <983064150@qq.com> (biaomingzhong.github.io)",
+  "version": "0.1.0",
+  "description": "Exercise for note. https://biaomingzhong.github.io/2017/web-image-performence-in-action-2",
+  "main": "http.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biaomingzhong/responsive-images-in-action.git"
+  },
+  "keywords": [
+    "web",
+    "image",
+    "performence",
+    "responsive",
+    "resize",
+    "thumbnail",
+    "crop"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/biaomingzhong/responsive-images-in-action/issues"
+  },
+  "homepage": "https://github.com/biaomingzhong/responsive-images-in-action",
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.15.2",
+    "serve-favicon": "^2.4.2"
+  }
+}
