@@ -1,14 +1,39 @@
 html {
   font-size: 16px;
+  line-height: 1.5;
 }
 
 body {
   font-size: 100%;
 }
 
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
 /* 防止图片宽度溢出问题 */
 img {
   max-width: 100%;
+}
+
+#post {
+  max-width: 64rem;
+  padding: 0 .5rem;
+  margin: 0 auto;
+}
+
+#post_title {
+  text-align: center;
+}
+
+#post .post_metas {
+  overflow: hidden;
+  text-align: center;
+}
+
+#post .post_meta {
+  margin: 0 2px;
 }
 
 /*
@@ -29,3 +54,95 @@ img {
 480
 320
 */
+
+#header {
+  height: 22.5rem;
+  background: no-repeat url("../img/resize/flower@640-360.jpg") center;
+  background-size: cover;
+  position: relative;
+}
+
+/*** Begin Media Queries ***/
+
+/*** 720px ***/
+@media screen and (min-width: 45em){
+  #header {
+    height: 25.3125rem;
+    background-image: url("../img/resize/flower@720-405.jpg");
+  }
+}
+
+/*** 768px ***/
+@media screen and (min-width: 48em){
+  #header {
+    height: 27rem;
+    background-image: url("../img/resize/flower@768-432.jpg");
+  }
+}
+
+/*** 1024px ***/
+@media screen and (min-width: 64em){
+  #header {
+    height: 36rem;
+    background-image: url("../img/resize/flower@1024-576.jpg");
+  }
+}
+
+/*** 1280px ***/
+@media screen and (min-width: 80em){
+  #header {
+    height: 45rem;
+    background-image: url("../img/resize/flower@1280-720.jpg");
+  }
+}
+
+/*** 1366px ***/
+@media screen and (min-width: 85.375em){
+  #header {
+    height: 48rem;
+    background-image: url("../img/resize/flower@1366-768.jpg");
+  }
+}
+
+/*** 1440px ***/
+@media screen and (min-width: 90em){
+  #header {
+    height: 50.625rem;
+    background-image: url("../img/resize/flower@1440-810.jpg");
+  }
+}
+
+/*** 1600px ***/
+@media screen and (min-width: 100em){
+  #header {
+    height: 56.25rem;
+    background-image: url("../img/resize/flower@1600-900.jpg");
+  }
+}
+
+/*** 1920px ***/
+@media screen and (min-width: 120em){
+  #header {
+    height: 67.5rem;
+    background-image: url("../img/resize/flower@1920-1080.jpg");
+  }
+}
+
+/*** 2560px ***/
+@media screen and (min-width: 160em){
+  #header {
+    height: 90rem;
+    background-image: url("../img/resize/flower@2560-1440.jpg");
+  }
+}
+
+/*** 3840px ***/
+@media screen and (min-width: 240em){
+  #header {
+    height: 135rem;
+    background-image: url("../img/resize/flower@3840-2160.jpg");
+  }
+}
+
+/* Start High DPI Media Queries */
+
