@@ -57,7 +57,7 @@ img {
 
 #header {
   height: 22.5rem;
-  background: no-repeat url("../img/resize/flower@640-360.jpg") center;
+  background: no-repeat url("../dist/flower@640.jpg") center;
   background-size: cover;
   position: relative;
 }
@@ -68,7 +68,7 @@ img {
 @media screen and (min-width: 45em){
   #header {
     height: 25.3125rem;
-    background-image: url("../img/resize/flower@720-405.jpg");
+    background-image: url("../dist/flower@720.jpg");
   }
 }
 
@@ -76,7 +76,7 @@ img {
 @media screen and (min-width: 48em){
   #header {
     height: 27rem;
-    background-image: url("../img/resize/flower@768-432.jpg");
+    background-image: url("../dist/flower@768.jpg");
   }
 }
 
@@ -84,7 +84,7 @@ img {
 @media screen and (min-width: 64em){
   #header {
     height: 36rem;
-    background-image: url("../img/resize/flower@1024-576.jpg");
+    background-image: url("../dist/flower@1024.jpg");
   }
 }
 
@@ -92,7 +92,7 @@ img {
 @media screen and (min-width: 80em){
   #header {
     height: 45rem;
-    background-image: url("../img/resize/flower@1280-720.jpg");
+    background-image: url("../dist/flower@1280.jpg");
   }
 }
 
@@ -100,7 +100,7 @@ img {
 @media screen and (min-width: 85.375em){
   #header {
     height: 48rem;
-    background-image: url("../img/resize/flower@1366-768.jpg");
+    background-image: url("../dist/flower@1366.jpg");
   }
 }
 
@@ -108,7 +108,7 @@ img {
 @media screen and (min-width: 90em){
   #header {
     height: 50.625rem;
-    background-image: url("../img/resize/flower@1440-810.jpg");
+    background-image: url("../dist/flower@1440.jpg");
   }
 }
 
@@ -116,7 +116,7 @@ img {
 @media screen and (min-width: 100em){
   #header {
     height: 56.25rem;
-    background-image: url("../img/resize/flower@1600-900.jpg");
+    background-image: url("../dist/flower@1600.jpg");
   }
 }
 
@@ -124,7 +124,7 @@ img {
 @media screen and (min-width: 120em){
   #header {
     height: 67.5rem;
-    background-image: url("../img/resize/flower@1920-1080.jpg");
+    background-image: url("../dist/flower@1920.jpg");
   }
 }
 
@@ -132,7 +132,7 @@ img {
 @media screen and (min-width: 160em){
   #header {
     height: 90rem;
-    background-image: url("../img/resize/flower@2560-1440.jpg");
+    background-image: url("../dist/flower@2560.jpg");
   }
 }
 
@@ -140,7 +140,7 @@ img {
 @media screen and (min-width: 240em){
   #header {
     height: 135rem;
-    background-image: url("../img/resize/flower@3840-2160.jpg");
+    background-image: url("../dist/flower@3840.jpg");
   }
 }
 

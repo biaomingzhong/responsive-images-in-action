@@ -29,5 +29,10 @@
     "compression": "^1.6.2",
     "express": "^4.15.2",
     "serve-favicon": "^2.4.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-responsive": "^2.7.0",
+    "sharp": "^0.17.3"
   }
 }
